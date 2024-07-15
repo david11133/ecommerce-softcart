@@ -27,7 +27,7 @@ FROM
     sales_data;
     
 
--- Create and index to the timestamp
+-- Create an index named ts on the timestamp field.
 CREATE INDEX ts ON sales_data (timestamp);
 
 
